@@ -1,0 +1,34 @@
+{
+  "name": "gulp-plovr",
+  "version": "0.0.1",
+  "description": "Gulp plugin. Wrapper for Plovr (Closure build tool).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/liderman/gulp-plovr.git"
+  },
+  "keywords": [
+    "gulp",
+    "gulp-plugin",
+    "plovr",
+    "closure",
+    "compiler",
+    "build"
+  ],
+  "author": {
+    "name": "Osipov Konstantin",
+    "email": "k.osipov.msk@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/liderman/gulp-plovr/issues"
+  },
+  "homepage": "https://github.com/liderman/gulp-plovr",
+  "dependencies": {
+    "through2": "^0.6.1",
+    "gulp-util": "^3.0.0"
+  }
+}
