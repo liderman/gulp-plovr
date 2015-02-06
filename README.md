@@ -62,17 +62,19 @@ npm install --save-dev gulp-plovr
 ## Example usage
 
 This example is similar to executing the command in the console:
-    ```shell
-        java -jar plovr-81ed862.jar build ./closure-compiler-plovr-config.json
-    ```
 
-    Equivalent to gulp:
-    ```js
-        var plovr = require('gulp-plovr');
-        gulp.task('jsbuild', function() {
-          return gulp.src(['./closure-compiler-plovr-config.json'])
-            .pipe(plovr({
-              debug: true
-            }));
-        });
-    ```
+```sh
+java -jar plovr-81ed862.jar build ./closure-compiler-plovr-config.json
+```
+
+Equivalent to gulp:
+
+```js
+    var plovr = require('gulp-plovr');
+    gulp.task('jsbuild', function() {
+      return gulp.src(['./closure-compiler-plovr-config.json'])
+        .pipe(plovr({
+          debug: true
+        }));
+    });
+```
